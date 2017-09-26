@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title%></title>
+    <link rel="stylesheet" href="/output/dist/css/index.css">
+</head>
+<body>
+<div id="app">
+    <p>
+        多页应用(koa-router传统后端+react前端) SPA(vue-cli vue-router)
+        相同点：webpack 多个entry
+        每个entry都会打包一个独立的js
+        n个vue-cli
+        饿了么 多页应用
+        spa有个致命的缺点 seo
+        app 
+    </p>
+</div>
+    <!-- webpack 可以将react，react-dom lib类框架
+    单独打包 不变 前端缓存 -->
+    <script src="/output/dist/js/vendor.js"></script>
+    <!-- 业务组件，经常会变 -->
+    <script src="/output/dist/js/index.js"></script>
+</body>
+</html>
